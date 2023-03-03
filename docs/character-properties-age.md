@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# age Schema
 
 ```txt
-character.json#/properties/age
+https://fable.deno.dev/character.json#/properties/age
 ```
 
 The age of the character
@@ -12,4 +12,4 @@ The age of the character
 
 ## age Type
 
-`string`
+`string` ([age](character-properties-age.md))

@@ -1,7 +1,7 @@
-# Untitled undefined type in \[object Object] Schema
+# format Schema
 
 ```txt
-media.json#/properties/format
+https://fable.deno.dev/media.json#/properties/format
 ```
 
 Choose what format of media this is
@@ -12,7 +12,7 @@ Choose what format of media this is
 
 ## format Type
 
-unknown
+`string` ([format](media-properties-format.md))
 
 ## format Constraints
 

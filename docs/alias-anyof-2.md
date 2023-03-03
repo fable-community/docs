@@ -1,7 +1,7 @@
-# Untitled schema Schema
+# Untitled undefined type in alias Schema
 
 ```txt
-alias.json#/anyOf/2
+https://fable.deno.dev/alias.json#/anyOf/2
 ```
 
 

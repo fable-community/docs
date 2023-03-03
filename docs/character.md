@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# character Schema
 
 ```txt
-character.json
+https://fable.deno.dev/character.json
 ```
 
 
@@ -10,23 +10,23 @@ character.json
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [character.json](../out/character.json "open original schema") |
 
-## Untitled object in undefined Type
+## character Type
 
-`object` ([Details](character.md))
+`object` ([character](character.md))
 
-# Untitled object in undefined Properties
+# character Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                          |
-| :------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------- |
-| [id](#id)                       | `string`  | Optional | cannot be null | [Untitled schema](character-properties-id.md "character.json#/properties/id")                       |
-| [name](#name)                   | Merged    | Optional | cannot be null | [Untitled schema](character-properties-name.md "alias.json#/properties/name")                       |
-| [description](#description)     | `string`  | Optional | cannot be null | [Untitled schema](character-properties-description.md "character.json#/properties/description")     |
-| [popularity](#popularity)       | `integer` | Optional | cannot be null | [Untitled schema](character-properties-popularity.md "character.json#/properties/popularity")       |
-| [gender](#gender)               | `string`  | Optional | cannot be null | [Untitled schema](character-properties-gender.md "character.json#/properties/gender")               |
-| [age](#age)                     | `string`  | Optional | cannot be null | [Untitled schema](character-properties-age.md "character.json#/properties/age")                     |
-| [images](#images)               | `array`   | Optional | cannot be null | [Untitled schema](character-properties-images.md "image.json#/properties/images")                   |
-| [externalLinks](#externallinks) | `array`   | Optional | cannot be null | [Untitled schema](character-properties-externallinks.md "character.json#/properties/externalLinks") |
-| [media](#media)                 | `array`   | Optional | cannot be null | [Untitled schema](character-properties-media.md "character.json#/properties/media")                 |
+| Property                        | Type      | Required | Nullable       | Defined by                                                                                                            |
+| :------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                       | `string`  | Optional | cannot be null | [character](character-properties-id.md "https://fable.deno.dev/character.json#/properties/id")                        |
+| [name](#name)                   | Merged    | Optional | cannot be null | [character](alias.md "https://fable.deno.dev/alias.json#/properties/name")                                            |
+| [description](#description)     | `string`  | Optional | cannot be null | [character](character-properties-description.md "https://fable.deno.dev/character.json#/properties/description")      |
+| [popularity](#popularity)       | `integer` | Optional | cannot be null | [character](character-properties-popularity.md "https://fable.deno.dev/character.json#/properties/popularity")        |
+| [gender](#gender)               | `string`  | Optional | cannot be null | [character](character-properties-gender.md "https://fable.deno.dev/character.json#/properties/gender")                |
+| [age](#age)                     | `string`  | Optional | cannot be null | [character](character-properties-age.md "https://fable.deno.dev/character.json#/properties/age")                      |
+| [images](#images)               | `array`   | Optional | cannot be null | [character](image.md "https://fable.deno.dev/image.json#/properties/images")                                          |
+| [externalLinks](#externallinks) | `array`   | Optional | cannot be null | [character](character-properties-external-links.md "https://fable.deno.dev/character.json#/properties/externalLinks") |
+| [media](#media)                 | `array`   | Optional | cannot be null | [character](character-properties-media.md "https://fable.deno.dev/character.json#/properties/media")                  |
 
 ## id
 
@@ -36,15 +36,15 @@ A unique alphanumeric id
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([id](character-properties-id.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-id.md "character.json#/properties/id")
+*   defined in: [character](character-properties-id.md "https://fable.deno.dev/character.json#/properties/id")
 
 ### id Type
 
-`string`
+`string` ([id](character-properties-id.md))
 
 ### id Constraints
 
@@ -68,23 +68,23 @@ The name of the character
 
 *   is optional
 
-*   Type: `object` ([Details](character-properties-name.md))
+*   Type: `object` ([alias](alias.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-name.md "alias.json#/properties/name")
+*   defined in: [character](alias.md "https://fable.deno.dev/alias.json#/properties/name")
 
 ### name Type
 
-`object` ([Details](character-properties-name.md))
+`object` ([alias](alias.md))
 
 any of
 
-*   [Untitled schema](alias-anyof-0.md "check type definition")
+*   [Untitled undefined type in alias](alias-anyof-0.md "check type definition")
 
-*   [Untitled schema](alias-anyof-1.md "check type definition")
+*   [Untitled undefined type in alias](alias-anyof-1.md "check type definition")
 
-*   [Untitled schema](alias-anyof-2.md "check type definition")
+*   [Untitled undefined type in alias](alias-anyof-2.md "check type definition")
 
 ## description
 
@@ -94,15 +94,15 @@ Add a description about this character
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([description](character-properties-description.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-description.md "character.json#/properties/description")
+*   defined in: [character](character-properties-description.md "https://fable.deno.dev/character.json#/properties/description")
 
 ### description Type
 
-`string`
+`string` ([description](character-properties-description.md))
 
 ### description Constraints
 
@@ -116,15 +116,15 @@ Set the popularity of the character (the number of followers or people who likes
 
 *   is optional
 
-*   Type: `integer`
+*   Type: `integer` ([popularity](character-properties-popularity.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-popularity.md "character.json#/properties/popularity")
+*   defined in: [character](character-properties-popularity.md "https://fable.deno.dev/character.json#/properties/popularity")
 
 ### popularity Type
 
-`integer`
+`integer` ([popularity](character-properties-popularity.md))
 
 ### popularity Constraints
 
@@ -138,15 +138,15 @@ The gender of the character
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([gender](character-properties-gender.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-gender.md "character.json#/properties/gender")
+*   defined in: [character](character-properties-gender.md "https://fable.deno.dev/character.json#/properties/gender")
 
 ### gender Type
 
-`string`
+`string` ([gender](character-properties-gender.md))
 
 ## age
 
@@ -156,15 +156,15 @@ The age of the character
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([age](character-properties-age.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-age.md "character.json#/properties/age")
+*   defined in: [character](character-properties-age.md "https://fable.deno.dev/character.json#/properties/age")
 
 ### age Type
 
-`string`
+`string` ([age](character-properties-age.md))
 
 ## images
 
@@ -174,15 +174,15 @@ A set of images featuring this character
 
 *   is optional
 
-*   Type: `object[]` ([Details](image-items.md))
+*   Type: `object[]` ([image](image-image.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-images.md "image.json#/properties/images")
+*   defined in: [character](image.md "https://fable.deno.dev/image.json#/properties/images")
 
 ### images Type
 
-`object[]` ([Details](image-items.md))
+`object[]` ([image](image-image.md))
 
 ## externalLinks
 
@@ -192,15 +192,15 @@ A list of urls for the media's pages on various platforms
 
 *   is optional
 
-*   Type: `object[]` ([Details](character-properties-externallinks-items.md))
+*   Type: `object[]` ([external link](character-properties-external-links-external-link.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-externallinks.md "character.json#/properties/externalLinks")
+*   defined in: [character](character-properties-external-links.md "https://fable.deno.dev/character.json#/properties/externalLinks")
 
 ### externalLinks Type
 
-`object[]` ([Details](character-properties-externallinks-items.md))
+`object[]` ([external link](character-properties-external-links-external-link.md))
 
 ## media
 
@@ -210,12 +210,12 @@ A list of media that the character appears in
 
 *   is optional
 
-*   Type: `object[]` ([Details](character-properties-media-items.md))
+*   Type: `object[]` ([media](character-properties-media-media.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](character-properties-media.md "character.json#/properties/media")
+*   defined in: [character](character-properties-media.md "https://fable.deno.dev/character.json#/properties/media")
 
 ### media Type
 
-`object[]` ([Details](character-properties-media-items.md))
+`object[]` ([media](character-properties-media-media.md))

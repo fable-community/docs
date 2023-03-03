@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# alias Schema
 
 ```txt
-alias.json
+https://fable.deno.dev/alias.json
 ```
 
 
@@ -10,26 +10,26 @@ alias.json
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [alias.json](../out/alias.json "open original schema") |
 
-## Untitled object in undefined Type
+## alias Type
 
-`object` ([Details](alias.md))
+`object` ([alias](alias.md))
 
 any of
 
-*   [Untitled schema](alias-anyof-0.md "check type definition")
+*   [Untitled undefined type in alias](alias-anyof-0.md "check type definition")
 
-*   [Untitled schema](alias-anyof-1.md "check type definition")
+*   [Untitled undefined type in alias](alias-anyof-1.md "check type definition")
 
-*   [Untitled schema](alias-anyof-2.md "check type definition")
+*   [Untitled undefined type in alias](alias-anyof-2.md "check type definition")
 
-# Untitled object in undefined Properties
+# alias Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                              |
-| :-------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------- |
-| [english](#english)         | `string` | Optional | cannot be null | [Untitled schema](alias-properties-english.md "alias.json#/properties/english")         |
-| [romaji](#romaji)           | `string` | Optional | cannot be null | [Untitled schema](alias-properties-romaji.md "alias.json#/properties/romaji")           |
-| [native](#native)           | `string` | Optional | cannot be null | [Untitled schema](alias-properties-native.md "alias.json#/properties/native")           |
-| [alternative](#alternative) | `array`  | Optional | cannot be null | [Untitled schema](alias-properties-alternative.md "alias.json#/properties/alternative") |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                           |
+| :-------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------- |
+| [english](#english)         | `string` | Optional | cannot be null | [alias](alias-properties-english.md "https://fable.deno.dev/alias.json#/properties/english")         |
+| [romaji](#romaji)           | `string` | Optional | cannot be null | [alias](alias-properties-romaji.md "https://fable.deno.dev/alias.json#/properties/romaji")           |
+| [native](#native)           | `string` | Optional | cannot be null | [alias](alias-properties-native.md "https://fable.deno.dev/alias.json#/properties/native")           |
+| [alternative](#alternative) | `array`  | Optional | cannot be null | [alias](alias-properties-alternative.md "https://fable.deno.dev/alias.json#/properties/alternative") |
 
 ## english
 
@@ -39,15 +39,15 @@ any of
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([english](alias-properties-english.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](alias-properties-english.md "alias.json#/properties/english")
+*   defined in: [alias](alias-properties-english.md "https://fable.deno.dev/alias.json#/properties/english")
 
 ### english Type
 
-`string`
+`string` ([english](alias-properties-english.md))
 
 ### english Constraints
 
@@ -63,15 +63,15 @@ any of
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([romaji](alias-properties-romaji.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](alias-properties-romaji.md "alias.json#/properties/romaji")
+*   defined in: [alias](alias-properties-romaji.md "https://fable.deno.dev/alias.json#/properties/romaji")
 
 ### romaji Type
 
-`string`
+`string` ([romaji](alias-properties-romaji.md))
 
 ### romaji Constraints
 
@@ -87,15 +87,15 @@ any of
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([native](alias-properties-native.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](alias-properties-native.md "alias.json#/properties/native")
+*   defined in: [alias](alias-properties-native.md "https://fable.deno.dev/alias.json#/properties/native")
 
 ### native Type
 
-`string`
+`string` ([native](alias-properties-native.md))
 
 ### native Constraints
 
@@ -111,12 +111,12 @@ A list of alternative known aliases
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string[]` ([alternative name](alias-properties-alternative-alternative-name.md))
 
 *   cannot be null
 
-*   defined in: [Untitled schema](alias-properties-alternative.md "alias.json#/properties/alternative")
+*   defined in: [alias](alias-properties-alternative.md "https://fable.deno.dev/alias.json#/properties/alternative")
 
 ### alternative Type
 
-`string[]`
+`string[]` ([alternative name](alias-properties-alternative-alternative-name.md))

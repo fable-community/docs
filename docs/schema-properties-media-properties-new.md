@@ -1,7 +1,7 @@
-# Untitled array in \[object Object] Schema
+# new Schema
 
 ```txt
-schema.json#/properties/media/properties/new
+https://fable.deno.dev/schema.json#/properties/media/properties/new
 ```
 
 A list of new media to add
@@ -12,4 +12,4 @@ A list of new media to add
 
 ## new Type
 
-an array of merged types ([Details](schema-properties-media-properties-new-items.md))
+an array of merged types ([media](schema-properties-media-properties-new-media.md))

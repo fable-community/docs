@@ -1,7 +1,7 @@
-# Untitled string in \[object Object] Schema
+# url Schema
 
 ```txt
-schema.json#/properties/url
+https://fable.deno.dev/schema.json#/properties/url
 ```
 
 The url to pack's homepage
@@ -12,4 +12,4 @@ The url to pack's homepage
 
 ## url Type
 
-`string`
+`string` ([url](schema-properties-url.md))

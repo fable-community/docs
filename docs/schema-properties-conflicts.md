@@ -1,7 +1,7 @@
-# Untitled array in \[object Object] Schema
+# conflicts Schema
 
 ```txt
-schema.json#/properties/conflicts
+https://fable.deno.dev/schema.json#/properties/conflicts
 ```
 
 A list of packs that might conflict with your pack.
@@ -12,4 +12,4 @@ A list of packs that might conflict with your pack.
 
 ## conflicts Type
 
-`string[]`
+`string[]` ([conflict](schema-properties-conflicts-conflict.md))

@@ -1,7 +1,7 @@
-# Untitled integer in undefined Schema
+# popularity Schema
 
 ```txt
-character.json#/properties/popularity
+https://fable.deno.dev/character.json#/properties/popularity
 ```
 
 Set the popularity of the character (the number of followers or people who likes them)
@@ -12,7 +12,7 @@ Set the popularity of the character (the number of followers or people who likes
 
 ## popularity Type
 
-`integer`
+`integer` ([popularity](character-properties-popularity.md))
 
 ## popularity Constraints
 

@@ -1,7 +1,7 @@
-# Untitled object in \[object Object] Schema
+# trailer Schema
 
 ```txt
-media.json#/properties/trailer
+https://fable.deno.dev/media.json#/properties/trailer
 ```
 
 A url to a trailer about the media
@@ -12,14 +12,14 @@ A url to a trailer about the media
 
 ## trailer Type
 
-`object` ([Details](media-properties-trailer.md))
+`object` ([trailer](media-properties-trailer.md))
 
 # trailer Properties
 
-| Property      | Type          | Required | Nullable       | Defined by                                                                                                        |
-| :------------ | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------- |
-| [site](#site) | Not specified | Required | cannot be null | [\[object Object\]](media-properties-trailer-properties-site.md "media.json#/properties/trailer/properties/site") |
-| [id](#id)     | `string`      | Required | cannot be null | [\[object Object\]](media-properties-trailer-properties-id.md "media.json#/properties/trailer/properties/id")     |
+| Property      | Type     | Required | Nullable       | Defined by                                                                                                                   |
+| :------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| [site](#site) | `string` | Required | cannot be null | [media](media-properties-trailer-properties-site.md "https://fable.deno.dev/media.json#/properties/trailer/properties/site") |
+| [id](#id)     | `string` | Required | cannot be null | [media](media-properties-trailer-properties-id.md "https://fable.deno.dev/media.json#/properties/trailer/properties/id")     |
 
 ## site
 
@@ -29,15 +29,15 @@ The name of the site (only supports youtube)
 
 *   is required
 
-*   Type: unknown
+*   Type: `string`
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](media-properties-trailer-properties-site.md "media.json#/properties/trailer/properties/site")
+*   defined in: [media](media-properties-trailer-properties-site.md "https://fable.deno.dev/media.json#/properties/trailer/properties/site")
 
 ### site Type
 
-unknown
+`string`
 
 ### site Constraints
 
@@ -55,15 +55,15 @@ The id of the video
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([id](media-properties-trailer-properties-id.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](media-properties-trailer-properties-id.md "media.json#/properties/trailer/properties/id")
+*   defined in: [media](media-properties-trailer-properties-id.md "https://fable.deno.dev/media.json#/properties/trailer/properties/id")
 
 ### id Type
 
-`string`
+`string` ([id](media-properties-trailer-properties-id.md))
 
 ### id Constraints
 

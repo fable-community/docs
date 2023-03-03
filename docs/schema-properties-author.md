@@ -1,7 +1,7 @@
-# Untitled string in \[object Object] Schema
+# author Schema
 
 ```txt
-schema.json#/properties/author
+https://fable.deno.dev/schema.json#/properties/author
 ```
 
 The name of the pack's author
@@ -12,4 +12,4 @@ The name of the pack's author
 
 ## author Type
 
-`string`
+`string` ([author](schema-properties-author.md))

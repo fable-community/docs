@@ -21,6 +21,7 @@ jobs:
           mkdir temp
           cd temp 
           tar --extract --file=../fable.tar.gz --strip-components=1 --directory=.
+          rm json/schema.builtin.json 
           cd ..
       - name: create markdown from fable json schemas
         run: jsonschema2md -e json -d temp/json -o docs

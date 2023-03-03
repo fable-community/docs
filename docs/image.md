@@ -1,7 +1,7 @@
-# Untitled array in undefined Schema
+# image Schema
 
 ```txt
-image.json
+https://fable.deno.dev/image.json
 ```
 
 
@@ -10,6 +10,6 @@ image.json
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [image.json](../out/image.json "open original schema") |
 
-## Untitled array in undefined Type
+## image Type
 
-`object[]` ([Details](image-items.md))
+`object[]` ([image](image-image.md))

@@ -1,7 +1,7 @@
-# Untitled string in \[object Object] Schema
+# image Schema
 
 ```txt
-schema.json#/properties/image
+https://fable.deno.dev/schema.json#/properties/image
 ```
 
 The icon of the pack or its author
@@ -12,4 +12,4 @@ The icon of the pack or its author
 
 ## image Type
 
-`string`
+`string` ([image](schema-properties-image.md))

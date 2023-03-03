@@ -2,70 +2,60 @@
 
 ## Top-level Schemas
 
-*   [Untitled array in undefined](./image.md) – `image.json`
+*   [alias](./alias.md) – `https://fable.deno.dev/alias.json`
 
-*   [Untitled object in undefined](./alias.md) – `alias.json`
+*   [character](./character.md) – `https://fable.deno.dev/character.json`
 
-*   [Untitled object in undefined](./character.md) – `character.json`
+*   [image](./image.md) – `https://fable.deno.dev/image.json`
 
-*   [Untitled object in undefined](./media.md) – `media.json`
+*   [manifest](./schema.md) – `https://fable.deno.dev/schema.json`
 
-*   [Untitled object in undefined](./schema.md) – `schema.json`
-
-*   [Untitled schema](./schema-1.md) – `schema.builtin.json`
+*   [media](./media.md) – `https://fable.deno.dev/media.json`
 
 ## Other Schemas
 
 ### Objects
 
-*   [Untitled object in \[object Object\]](./media-properties-trailer.md "A url to a trailer about the media") – `media.json#/properties/trailer`
+*   [character](./media-properties-characters-character.md) – `https://fable.deno.dev/media.json#/properties/characters/items`
 
-*   [Untitled object in \[object Object\]](./media-properties-externallinks-items.md) – `media.json#/properties/externalLinks/items`
+*   [characters](./schema-properties-characters.md "Characters to add, or overwrite") – `https://fable.deno.dev/schema.json#/properties/characters`
 
-*   [Untitled object in \[object Object\]](./media-properties-relations-items.md) – `media.json#/properties/relations/items`
+*   [external link](./character-properties-external-links-external-link.md) – `https://fable.deno.dev/character.json#/properties/externalLinks/items`
 
-*   [Untitled object in \[object Object\]](./media-properties-characters-items.md) – `media.json#/properties/characters/items`
+*   [external link](./media-properties-external-links-external-link.md) – `https://fable.deno.dev/media.json#/properties/externalLinks/items`
 
-*   [Untitled object in \[object Object\]](./schema-properties-media.md "Media to add, or overwrite") – `schema.json#/properties/media`
+*   [image](./image-image.md) – `https://fable.deno.dev/image.json#/items`
 
-*   [Untitled object in \[object Object\]](./schema-properties-characters.md "Characters to add, or overwrite") – `schema.json#/properties/characters`
+*   [media](./character-properties-media-media.md) – `https://fable.deno.dev/character.json#/properties/media/items`
 
-*   [Untitled object in undefined](./image-items.md) – `image.json#/items`
+*   [media](./schema-properties-media.md "Media to add, or overwrite") – `https://fable.deno.dev/schema.json#/properties/media`
 
-*   [Untitled object in undefined](./character-properties-externallinks-items.md) – `character.json#/properties/externalLinks/items`
+*   [relation](./media-properties-relations-relation.md) – `https://fable.deno.dev/media.json#/properties/relations/items`
 
-*   [Untitled object in undefined](./character-properties-media-items.md) – `character.json#/properties/media/items`
-
-*   [Untitled object in undefined](./schema-1-properties-commands.md "Register new slash commands") – `schema.builtin.json#/properties/commands`
-
-*   [Untitled object in undefined](./schema-1-properties-commands-patternproperties-.md) – `schema.builtin.json#/properties/commands/patternProperties/^.*$`
-
-*   [Untitled object in undefined](./schema-1-properties-commands-patternproperties--properties-options-items.md) – `schema.builtin.json#/properties/commands/patternProperties/^.*$/properties/options/items`
+*   [trailer](./media-properties-trailer.md "A url to a trailer about the media") – `https://fable.deno.dev/media.json#/properties/trailer`
 
 ### Arrays
 
-*   [Untitled array in \[object Object\]](./media-properties-externallinks.md "A list of urls for the media's pages on various platforms") – `media.json#/properties/externalLinks`
+*   [alternative](./alias-properties-alternative.md "A list of alternative known aliases") – `https://fable.deno.dev/alias.json#/properties/alternative`
 
-*   [Untitled array in \[object Object\]](./media-properties-relations.md "Define the relations between this media and other media") – `media.json#/properties/relations`
+*   [characters](./media-properties-characters.md "A list of characters that appear in the media") – `https://fable.deno.dev/media.json#/properties/characters`
 
-*   [Untitled array in \[object Object\]](./media-properties-characters.md "A list of characters that appear in the media") – `media.json#/properties/characters`
+*   [conflicts](./schema-properties-conflicts.md "A list of packs that might conflict with your pack") – `https://fable.deno.dev/schema.json#/properties/conflicts`
 
-*   [Untitled array in \[object Object\]](./schema-properties-depends.md "A list of packs that are required to make your pack function properly") – `schema.json#/properties/depends`
+*   [conflicts](./schema-properties-media-properties-conflicts.md "A list of media that might conflict with your pack") – `https://fable.deno.dev/schema.json#/properties/media/properties/conflicts`
 
-*   [Untitled array in \[object Object\]](./schema-properties-conflicts.md "A list of packs that might conflict with your pack") – `schema.json#/properties/conflicts`
+*   [conflicts](./schema-properties-characters-properties-conflicts.md "A list of characters that might conflict with your pack (All characters listed here will be entirely disabled)") – `https://fable.deno.dev/schema.json#/properties/characters/properties/conflicts`
 
-*   [Untitled array in \[object Object\]](./schema-properties-media-properties-new.md "A list of new media to add") – `schema.json#/properties/media/properties/new`
+*   [depends](./schema-properties-depends.md "A list of packs that are required to make your pack function properly") – `https://fable.deno.dev/schema.json#/properties/depends`
 
-*   [Untitled array in \[object Object\]](./schema-properties-media-properties-conflicts.md "A list of media that might conflict with your pack") – `schema.json#/properties/media/properties/conflicts`
+*   [external links](./character-properties-external-links.md "A list of urls for the media's pages on various platforms") – `https://fable.deno.dev/character.json#/properties/externalLinks`
 
-*   [Untitled array in \[object Object\]](./schema-properties-characters-properties-new.md "A list of new characters to add") – `schema.json#/properties/characters/properties/new`
+*   [external links](./media-properties-external-links.md "A list of urls for the media's pages on various platforms") – `https://fable.deno.dev/media.json#/properties/externalLinks`
 
-*   [Untitled array in \[object Object\]](./schema-properties-characters-properties-conflicts.md "A list of characters that might conflict with your pack (All characters listed here will be entirely disabled)") – `schema.json#/properties/characters/properties/conflicts`
+*   [media](./character-properties-media.md "A list of media that the character appears in") – `https://fable.deno.dev/character.json#/properties/media`
 
-*   [Untitled array in undefined](./alias-properties-alternative.md "A list of alternative known aliases") – `alias.json#/properties/alternative`
+*   [new](./schema-properties-media-properties-new.md "A list of new media to add") – `https://fable.deno.dev/schema.json#/properties/media/properties/new`
 
-*   [Untitled array in undefined](./character-properties-externallinks.md "A list of urls for the media's pages on various platforms") – `character.json#/properties/externalLinks`
+*   [new](./schema-properties-characters-properties-new.md "A list of new characters to add") – `https://fable.deno.dev/schema.json#/properties/characters/properties/new`
 
-*   [Untitled array in undefined](./character-properties-media.md "A list of media that the character appears in") – `character.json#/properties/media`
-
-*   [Untitled array in undefined](./schema-1-properties-commands-patternproperties--properties-options.md) – `schema.builtin.json#/properties/commands/patternProperties/^.*$/properties/options`
+*   [relations](./media-properties-relations.md "Define the relations between this media and other media") – `https://fable.deno.dev/media.json#/properties/relations`

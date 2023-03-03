@@ -1,7 +1,7 @@
-# Untitled object in undefined Schema
+# manifest Schema
 
 ```txt
-schema.json
+https://fable.deno.dev/schema.json
 ```
 
 
@@ -10,25 +10,25 @@ schema.json
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [schema.json](../out/schema.json "open original schema") |
 
-## Untitled object in undefined Type
+## manifest Type
 
-`object` ([Details](schema.md))
+`object` ([manifest](schema.md))
 
-# Untitled object in undefined Properties
+# manifest Properties
 
-| Property                    | Type      | Required | Nullable       | Defined by                                                                                  |
-| :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------ |
-| [id](#id)                   | `string`  | Required | cannot be null | [\[object Object\]](schema-properties-id.md "schema.json#/properties/id")                   |
-| [title](#title)             | `string`  | Optional | cannot be null | [\[object Object\]](schema-properties-title.md "schema.json#/properties/title")             |
-| [description](#description) | `string`  | Optional | cannot be null | [\[object Object\]](schema-properties-description.md "schema.json#/properties/description") |
-| [nsfw](#nsfw)               | `boolean` | Optional | cannot be null | [\[object Object\]](schema-properties-nsfw.md "schema.json#/properties/nsfw")               |
-| [author](#author)           | `string`  | Optional | cannot be null | [\[object Object\]](schema-properties-author.md "schema.json#/properties/author")           |
-| [image](#image)             | `string`  | Optional | cannot be null | [\[object Object\]](schema-properties-image.md "schema.json#/properties/image")             |
-| [url](#url)                 | `string`  | Optional | cannot be null | [\[object Object\]](schema-properties-url.md "schema.json#/properties/url")                 |
-| [depends](#depends)         | `array`   | Optional | cannot be null | [\[object Object\]](schema-properties-depends.md "schema.json#/properties/depends")         |
-| [conflicts](#conflicts)     | `array`   | Optional | cannot be null | [\[object Object\]](schema-properties-conflicts.md "schema.json#/properties/conflicts")     |
-| [media](#media)             | `object`  | Optional | cannot be null | [\[object Object\]](schema-properties-media.md "schema.json#/properties/media")             |
-| [characters](#characters)   | `object`  | Optional | cannot be null | [\[object Object\]](schema-properties-characters.md "schema.json#/properties/characters")   |
+| Property                    | Type      | Required | Nullable       | Defined by                                                                                                |
+| :-------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------- |
+| [id](#id)                   | `string`  | Required | cannot be null | [manifest](schema-properties-id.md "https://fable.deno.dev/schema.json#/properties/id")                   |
+| [title](#title)             | `string`  | Optional | cannot be null | [manifest](schema-properties-title.md "https://fable.deno.dev/schema.json#/properties/title")             |
+| [description](#description) | `string`  | Optional | cannot be null | [manifest](schema-properties-description.md "https://fable.deno.dev/schema.json#/properties/description") |
+| [nsfw](#nsfw)               | `boolean` | Optional | cannot be null | [manifest](schema-properties-nsfw.md "https://fable.deno.dev/schema.json#/properties/nsfw")               |
+| [author](#author)           | `string`  | Optional | cannot be null | [manifest](schema-properties-author.md "https://fable.deno.dev/schema.json#/properties/author")           |
+| [image](#image)             | `string`  | Optional | cannot be null | [manifest](schema-properties-image.md "https://fable.deno.dev/schema.json#/properties/image")             |
+| [url](#url)                 | `string`  | Optional | cannot be null | [manifest](schema-properties-url.md "https://fable.deno.dev/schema.json#/properties/url")                 |
+| [depends](#depends)         | `array`   | Optional | cannot be null | [manifest](schema-properties-depends.md "https://fable.deno.dev/schema.json#/properties/depends")         |
+| [conflicts](#conflicts)     | `array`   | Optional | cannot be null | [manifest](schema-properties-conflicts.md "https://fable.deno.dev/schema.json#/properties/conflicts")     |
+| [media](#media)             | `object`  | Optional | cannot be null | [manifest](schema-properties-media.md "https://fable.deno.dev/schema.json#/properties/media")             |
+| [characters](#characters)   | `object`  | Optional | cannot be null | [manifest](schema-properties-characters.md "https://fable.deno.dev/schema.json#/properties/characters")   |
 
 ## id
 
@@ -38,15 +38,15 @@ A unique alphanumeric id
 
 *   is required
 
-*   Type: `string`
+*   Type: `string` ([id](schema-properties-id.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-id.md "schema.json#/properties/id")
+*   defined in: [manifest](schema-properties-id.md "https://fable.deno.dev/schema.json#/properties/id")
 
 ### id Type
 
-`string`
+`string` ([id](schema-properties-id.md))
 
 ### id Constraints
 
@@ -70,15 +70,15 @@ The display title of the pack
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([title](schema-properties-title.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-title.md "schema.json#/properties/title")
+*   defined in: [manifest](schema-properties-title.md "https://fable.deno.dev/schema.json#/properties/title")
 
 ### title Type
 
-`string`
+`string` ([title](schema-properties-title.md))
 
 ### title Constraints
 
@@ -92,15 +92,15 @@ Small description about the pack and what it contains
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([description](schema-properties-description.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-description.md "schema.json#/properties/description")
+*   defined in: [manifest](schema-properties-description.md "https://fable.deno.dev/schema.json#/properties/description")
 
 ### description Type
 
-`string`
+`string` ([description](schema-properties-description.md))
 
 ### description Constraints
 
@@ -114,15 +114,15 @@ If the pack contains nsfw (adult) content
 
 *   is optional
 
-*   Type: `boolean`
+*   Type: `boolean` ([nsfw](schema-properties-nsfw.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-nsfw.md "schema.json#/properties/nsfw")
+*   defined in: [manifest](schema-properties-nsfw.md "https://fable.deno.dev/schema.json#/properties/nsfw")
 
 ### nsfw Type
 
-`boolean`
+`boolean` ([nsfw](schema-properties-nsfw.md))
 
 ## author
 
@@ -132,15 +132,15 @@ The name of the pack's author
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([author](schema-properties-author.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-author.md "schema.json#/properties/author")
+*   defined in: [manifest](schema-properties-author.md "https://fable.deno.dev/schema.json#/properties/author")
 
 ### author Type
 
-`string`
+`string` ([author](schema-properties-author.md))
 
 ## image
 
@@ -150,15 +150,15 @@ The icon of the pack or its author
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([image](schema-properties-image.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-image.md "schema.json#/properties/image")
+*   defined in: [manifest](schema-properties-image.md "https://fable.deno.dev/schema.json#/properties/image")
 
 ### image Type
 
-`string`
+`string` ([image](schema-properties-image.md))
 
 ## url
 
@@ -168,15 +168,15 @@ The url to pack's homepage
 
 *   is optional
 
-*   Type: `string`
+*   Type: `string` ([url](schema-properties-url.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-url.md "schema.json#/properties/url")
+*   defined in: [manifest](schema-properties-url.md "https://fable.deno.dev/schema.json#/properties/url")
 
 ### url Type
 
-`string`
+`string` ([url](schema-properties-url.md))
 
 ## depends
 
@@ -186,15 +186,15 @@ A list of packs that are required to make your pack function properly.
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string[]` ([dependency](schema-properties-depends-dependency.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-depends.md "schema.json#/properties/depends")
+*   defined in: [manifest](schema-properties-depends.md "https://fable.deno.dev/schema.json#/properties/depends")
 
 ### depends Type
 
-`string[]`
+`string[]` ([dependency](schema-properties-depends-dependency.md))
 
 ## conflicts
 
@@ -204,15 +204,15 @@ A list of packs that might conflict with your pack.
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string[]` ([conflict](schema-properties-conflicts-conflict.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-conflicts.md "schema.json#/properties/conflicts")
+*   defined in: [manifest](schema-properties-conflicts.md "https://fable.deno.dev/schema.json#/properties/conflicts")
 
 ### conflicts Type
 
-`string[]`
+`string[]` ([conflict](schema-properties-conflicts-conflict.md))
 
 ## media
 
@@ -222,15 +222,15 @@ Media to add, or overwrite
 
 *   is optional
 
-*   Type: `object` ([Details](schema-properties-media.md))
+*   Type: `object` ([media](schema-properties-media.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-media.md "schema.json#/properties/media")
+*   defined in: [manifest](schema-properties-media.md "https://fable.deno.dev/schema.json#/properties/media")
 
 ### media Type
 
-`object` ([Details](schema-properties-media.md))
+`object` ([media](schema-properties-media.md))
 
 ## characters
 
@@ -240,12 +240,12 @@ Characters to add, or overwrite
 
 *   is optional
 
-*   Type: `object` ([Details](schema-properties-characters.md))
+*   Type: `object` ([characters](schema-properties-characters.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-characters.md "schema.json#/properties/characters")
+*   defined in: [manifest](schema-properties-characters.md "https://fable.deno.dev/schema.json#/properties/characters")
 
 ### characters Type
 
-`object` ([Details](schema-properties-characters.md))
+`object` ([characters](schema-properties-characters.md))

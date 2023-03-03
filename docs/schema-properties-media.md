@@ -1,7 +1,7 @@
-# Untitled object in \[object Object] Schema
+# media Schema
 
 ```txt
-schema.json#/properties/media
+https://fable.deno.dev/schema.json#/properties/media
 ```
 
 Media to add, or overwrite
@@ -12,14 +12,14 @@ Media to add, or overwrite
 
 ## media Type
 
-`object` ([Details](schema-properties-media.md))
+`object` ([media](schema-properties-media.md))
 
 # media Properties
 
-| Property                | Type    | Required | Nullable       | Defined by                                                                                                                |
-| :---------------------- | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------ |
-| [new](#new)             | `array` | Optional | cannot be null | [\[object Object\]](schema-properties-media-properties-new.md "schema.json#/properties/media/properties/new")             |
-| [conflicts](#conflicts) | `array` | Optional | cannot be null | [\[object Object\]](schema-properties-media-properties-conflicts.md "schema.json#/properties/media/properties/conflicts") |
+| Property                | Type    | Required | Nullable       | Defined by                                                                                                                              |
+| :---------------------- | :------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [new](#new)             | `array` | Optional | cannot be null | [manifest](schema-properties-media-properties-new.md "https://fable.deno.dev/schema.json#/properties/media/properties/new")             |
+| [conflicts](#conflicts) | `array` | Optional | cannot be null | [manifest](schema-properties-media-properties-conflicts.md "https://fable.deno.dev/schema.json#/properties/media/properties/conflicts") |
 
 ## new
 
@@ -29,15 +29,15 @@ A list of new media to add
 
 *   is optional
 
-*   Type: an array of merged types ([Details](schema-properties-media-properties-new-items.md))
+*   Type: an array of merged types ([media](schema-properties-media-properties-new-media.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-media-properties-new.md "schema.json#/properties/media/properties/new")
+*   defined in: [manifest](schema-properties-media-properties-new.md "https://fable.deno.dev/schema.json#/properties/media/properties/new")
 
 ### new Type
 
-an array of merged types ([Details](schema-properties-media-properties-new-items.md))
+an array of merged types ([media](schema-properties-media-properties-new-media.md))
 
 ## conflicts
 
@@ -47,12 +47,12 @@ A list of media that might conflict with your pack. All media listed here will b
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string[]` ([conflict](schema-properties-media-properties-conflicts-conflict.md))
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](schema-properties-media-properties-conflicts.md "schema.json#/properties/media/properties/conflicts")
+*   defined in: [manifest](schema-properties-media-properties-conflicts.md "https://fable.deno.dev/schema.json#/properties/media/properties/conflicts")
 
 ### conflicts Type
 
-`string[]`
+`string[]` ([conflict](schema-properties-media-properties-conflicts-conflict.md))

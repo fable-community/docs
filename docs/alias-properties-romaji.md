@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# romaji Schema
 
 ```txt
-alias.json#/properties/romaji
+https://fable.deno.dev/alias.json#/properties/romaji
 ```
 
 
@@ -12,7 +12,7 @@ alias.json#/properties/romaji
 
 ## romaji Type
 
-`string`
+`string` ([romaji](alias-properties-romaji.md))
 
 ## romaji Constraints
 

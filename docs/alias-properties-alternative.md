@@ -1,7 +1,7 @@
-# Untitled array in undefined Schema
+# alternative Schema
 
 ```txt
-alias.json#/properties/alternative
+https://fable.deno.dev/alias.json#/properties/alternative
 ```
 
 A list of alternative known aliases
@@ -12,4 +12,4 @@ A list of alternative known aliases
 
 ## alternative Type
 
-`string[]`
+`string[]` ([alternative name](alias-properties-alternative-alternative-name.md))

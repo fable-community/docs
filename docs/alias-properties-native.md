@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# native Schema
 
 ```txt
-alias.json#/properties/native
+https://fable.deno.dev/alias.json#/properties/native
 ```
 
 
@@ -12,7 +12,7 @@ alias.json#/properties/native
 
 ## native Type
 
-`string`
+`string` ([native](alias-properties-native.md))
 
 ## native Constraints
 

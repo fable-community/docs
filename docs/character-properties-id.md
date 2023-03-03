@@ -1,7 +1,7 @@
-# Untitled string in undefined Schema
+# id Schema
 
 ```txt
-character.json#/properties/id
+https://fable.deno.dev/character.json#/properties/id
 ```
 
 A unique alphanumeric id
@@ -12,7 +12,7 @@ A unique alphanumeric id
 
 ## id Type
 
-`string`
+`string` ([id](character-properties-id.md))
 
 ## id Constraints
 

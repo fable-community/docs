@@ -1,7 +1,7 @@
-# Untitled array in \[object Object] Schema
+# conflicts Schema
 
 ```txt
-schema.json#/properties/media/properties/conflicts
+https://fable.deno.dev/schema.json#/properties/media/properties/conflicts
 ```
 
 A list of media that might conflict with your pack. All media listed here will be entirely disabled.
@@ -12,4 +12,4 @@ A list of media that might conflict with your pack. All media listed here will b
 
 ## conflicts Type
 
-`string[]`
+`string[]` ([conflict](schema-properties-media-properties-conflicts-conflict.md))
