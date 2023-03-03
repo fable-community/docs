@@ -1,0 +1,38 @@
+name: docs
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Once a day "At 00:00" (see https://crontab.guru/once-a-day)
+    - cron: "0 0 * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install -g @adobe/jsonschema2md
+      - name: download and extract fable.tar.gz
+        run: |
+          curl https://api.github.com/repos/ker0olos/fable/tarball -Lo fable.tar.gz
+          mkdir temp
+          cd temp 
+          tar --extract --file=../fable.tar.gz --strip-components=1 --directory=.
+          cd ..
+      - name: create markdown from fable json schemas
+        run: jsonschema2md -e json -d temp/json -o docs
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          author: GitHub <noreply@github.com>
+          title: "Updated docs"
+          commit-message: "[bot] Updated docs"
+          branch: update-docs
+          delete-branch: true
+          body: |
+            This PR is auto-generated
+
+            Updated the docs from the latest json schema
