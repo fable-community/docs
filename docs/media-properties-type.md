@@ -1,7 +1,7 @@
-# type Schema
+# Untitled undefined type in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/type
+media.json#/properties/type
 ```
 
 Choose what type of media this is
@@ -12,7 +12,7 @@ Choose what type of media this is
 
 ## type Type
 
-`string` ([type](media-properties-type.md))
+unknown
 
 ## type Constraints
 

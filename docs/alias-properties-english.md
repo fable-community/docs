@@ -1,7 +1,7 @@
-# english Schema
+# Untitled string in undefined Schema
 
 ```txt
-https://fable.deno.dev/alias.json#/properties/english
+alias.json#/properties/english
 ```
 
 
@@ -12,7 +12,7 @@ https://fable.deno.dev/alias.json#/properties/english
 
 ## english Type
 
-`string` ([english](alias-properties-english.md))
+`string`
 
 ## english Constraints
 

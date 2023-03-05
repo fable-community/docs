@@ -1,7 +1,7 @@
-# conflicts Schema
+# Untitled array in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/characters/properties/conflicts
+schema.json#/properties/characters/properties/conflicts
 ```
 
 A list of characters that might conflict with your pack (All characters listed here will be entirely disabled).
@@ -12,4 +12,4 @@ A list of characters that might conflict with your pack (All characters listed h
 
 ## conflicts Type
 
-`string[]` ([conflict](schema-properties-characters-properties-conflicts-conflict.md))
+`string[]`

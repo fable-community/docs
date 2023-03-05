@@ -1,7 +1,7 @@
-# title Schema
+# Untitled string in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/title
+schema.json#/properties/title
 ```
 
 The display title of the pack
@@ -12,7 +12,7 @@ The display title of the pack
 
 ## title Type
 
-`string` ([title](schema-properties-title.md))
+`string`
 
 ## title Constraints
 

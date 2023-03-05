@@ -1,7 +1,7 @@
-# id Schema
+# Untitled string in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/trailer/properties/id
+media.json#/properties/trailer/properties/id
 ```
 
 The id of the video
@@ -12,7 +12,7 @@ The id of the video
 
 ## id Type
 
-`string` ([id](media-properties-trailer-properties-id.md))
+`string`
 
 ## id Constraints
 

@@ -1,7 +1,7 @@
-# popularity Schema
+# Untitled integer in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/popularity
+media.json#/properties/popularity
 ```
 
 Set the popularity of the media (the number of followers or people who read/watch it)
@@ -12,7 +12,7 @@ Set the popularity of the media (the number of followers or people who read/watc
 
 ## popularity Type
 
-`integer` ([popularity](media-properties-popularity.md))
+`integer`
 
 ## popularity Constraints
 

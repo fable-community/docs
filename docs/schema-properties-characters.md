@@ -1,7 +1,7 @@
-# characters Schema
+# Untitled object in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/characters
+schema.json#/properties/characters
 ```
 
 Characters to add, or overwrite
@@ -12,14 +12,14 @@ Characters to add, or overwrite
 
 ## characters Type
 
-`object` ([characters](schema-properties-characters.md))
+`object` ([Details](schema-properties-characters.md))
 
 # characters Properties
 
-| Property                | Type    | Required | Nullable       | Defined by                                                                                                                                        |
-| :---------------------- | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [new](#new)             | `array` | Optional | cannot be null | [manifest](schema-properties-characters-properties-new.md "https://fable.deno.dev/schema.json#/properties/characters/properties/new")             |
-| [conflicts](#conflicts) | `array` | Optional | cannot be null | [manifest](schema-properties-characters-properties-conflicts.md "https://fable.deno.dev/schema.json#/properties/characters/properties/conflicts") |
+| Property                | Type    | Required | Nullable       | Defined by                                                                                                                          |
+| :---------------------- | :------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| [new](#new)             | `array` | Optional | cannot be null | [\[object Object\]](schema-properties-characters-properties-new.md "schema.json#/properties/characters/properties/new")             |
+| [conflicts](#conflicts) | `array` | Optional | cannot be null | [\[object Object\]](schema-properties-characters-properties-conflicts.md "schema.json#/properties/characters/properties/conflicts") |
 
 ## new
 
@@ -29,15 +29,15 @@ A list of new characters to add
 
 *   is optional
 
-*   Type: an array of merged types ([character](schema-properties-characters-properties-new-character.md))
+*   Type: an array of merged types ([Details](schema-properties-characters-properties-new-items.md))
 
 *   cannot be null
 
-*   defined in: [manifest](schema-properties-characters-properties-new.md "https://fable.deno.dev/schema.json#/properties/characters/properties/new")
+*   defined in: [\[object Object\]](schema-properties-characters-properties-new.md "schema.json#/properties/characters/properties/new")
 
 ### new Type
 
-an array of merged types ([character](schema-properties-characters-properties-new-character.md))
+an array of merged types ([Details](schema-properties-characters-properties-new-items.md))
 
 ## conflicts
 
@@ -47,12 +47,12 @@ A list of characters that might conflict with your pack (All characters listed h
 
 *   is optional
 
-*   Type: `string[]` ([conflict](schema-properties-characters-properties-conflicts-conflict.md))
+*   Type: `string[]`
 
 *   cannot be null
 
-*   defined in: [manifest](schema-properties-characters-properties-conflicts.md "https://fable.deno.dev/schema.json#/properties/characters/properties/conflicts")
+*   defined in: [\[object Object\]](schema-properties-characters-properties-conflicts.md "schema.json#/properties/characters/properties/conflicts")
 
 ### conflicts Type
 
-`string[]` ([conflict](schema-properties-characters-properties-conflicts-conflict.md))
+`string[]`

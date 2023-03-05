@@ -1,7 +1,7 @@
-# characters Schema
+# Untitled array in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/characters
+media.json#/properties/characters
 ```
 
 A list of characters that appear in the media
@@ -12,4 +12,4 @@ A list of characters that appear in the media
 
 ## characters Type
 
-`object[]` ([character](media-properties-characters-character.md))
+`object[]` ([Details](media-properties-characters-items.md))

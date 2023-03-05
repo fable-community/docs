@@ -1,7 +1,7 @@
-# gender Schema
+# Untitled string in undefined Schema
 
 ```txt
-https://fable.deno.dev/character.json#/properties/gender
+character.json#/properties/gender
 ```
 
 The gender of the character
@@ -12,4 +12,4 @@ The gender of the character
 
 ## gender Type
 
-`string` ([gender](character-properties-gender.md))
+`string`

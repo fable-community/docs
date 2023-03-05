@@ -1,7 +1,7 @@
-# nsfw Schema
+# Untitled boolean in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/nsfw
+schema.json#/properties/nsfw
 ```
 
 If the pack contains nsfw (adult) content
@@ -12,4 +12,4 @@ If the pack contains nsfw (adult) content
 
 ## nsfw Type
 
-`boolean` ([nsfw](schema-properties-nsfw.md))
+`boolean`

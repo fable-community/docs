@@ -1,7 +1,7 @@
-# description Schema
+# Untitled string in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/description
+schema.json#/properties/description
 ```
 
 Small description about the pack and what it contains
@@ -12,7 +12,7 @@ Small description about the pack and what it contains
 
 ## description Type
 
-`string` ([description](schema-properties-description.md))
+`string`
 
 ## description Constraints
 

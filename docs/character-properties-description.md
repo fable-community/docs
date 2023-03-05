@@ -1,7 +1,7 @@
-# description Schema
+# Untitled string in undefined Schema
 
 ```txt
-https://fable.deno.dev/character.json#/properties/description
+character.json#/properties/description
 ```
 
 Add a description about this character
@@ -12,7 +12,7 @@ Add a description about this character
 
 ## description Type
 
-`string` ([description](character-properties-description.md))
+`string`
 
 ## description Constraints
 

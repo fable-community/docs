@@ -1,7 +1,7 @@
-# new Schema
+# Untitled array in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/characters/properties/new
+schema.json#/properties/characters/properties/new
 ```
 
 A list of new characters to add
@@ -12,4 +12,4 @@ A list of new characters to add
 
 ## new Type
 
-an array of merged types ([character](schema-properties-characters-properties-new-character.md))
+an array of merged types ([Details](schema-properties-characters-properties-new-items.md))

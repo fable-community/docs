@@ -1,7 +1,7 @@
-# media Schema
+# Untitled object in undefined Schema
 
 ```txt
-https://fable.deno.dev/media.json
+media.json
 ```
 
 
@@ -10,25 +10,25 @@ https://fable.deno.dev/media.json
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [media.json](../out/media.json "open original schema") |
 
-## media Type
+## Untitled object in undefined Type
 
-`object` ([media](media.md))
+`object` ([Details](media.md))
 
-# media Properties
+# Untitled object in undefined Properties
 
-| Property                        | Type      | Required | Nullable       | Defined by                                                                                                |
-| :------------------------------ | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------- |
-| [id](#id)                       | `string`  | Optional | cannot be null | [media](media-properties-id.md "https://fable.deno.dev/media.json#/properties/id")                        |
-| [type](#type)                   | `string`  | Optional | cannot be null | [media](media-properties-type.md "https://fable.deno.dev/media.json#/properties/type")                    |
-| [format](#format)               | `string`  | Optional | cannot be null | [media](media-properties-format.md "https://fable.deno.dev/media.json#/properties/format")                |
-| [title](#title)                 | Merged    | Optional | cannot be null | [media](alias.md "https://fable.deno.dev/alias.json#/properties/title")                                   |
-| [popularity](#popularity)       | `integer` | Optional | cannot be null | [media](media-properties-popularity.md "https://fable.deno.dev/media.json#/properties/popularity")        |
-| [description](#description)     | `string`  | Optional | cannot be null | [media](media-properties-description.md "https://fable.deno.dev/media.json#/properties/description")      |
-| [images](#images)               | `array`   | Optional | cannot be null | [media](image.md "https://fable.deno.dev/image.json#/properties/images")                                  |
-| [trailer](#trailer)             | `object`  | Optional | cannot be null | [media](media-properties-trailer.md "https://fable.deno.dev/media.json#/properties/trailer")              |
-| [externalLinks](#externallinks) | `array`   | Optional | cannot be null | [media](media-properties-external-links.md "https://fable.deno.dev/media.json#/properties/externalLinks") |
-| [relations](#relations)         | `array`   | Optional | cannot be null | [media](media-properties-relations.md "https://fable.deno.dev/media.json#/properties/relations")          |
-| [characters](#characters)       | `array`   | Optional | cannot be null | [media](media-properties-characters.md "https://fable.deno.dev/media.json#/properties/characters")        |
+| Property                        | Type          | Required | Nullable       | Defined by                                                                                    |
+| :------------------------------ | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------- |
+| [id](#id)                       | `string`      | Optional | cannot be null | [\[object Object\]](media-properties-id.md "media.json#/properties/id")                       |
+| [type](#type)                   | Not specified | Optional | cannot be null | [\[object Object\]](media-properties-type.md "media.json#/properties/type")                   |
+| [format](#format)               | Not specified | Optional | cannot be null | [\[object Object\]](media-properties-format.md "media.json#/properties/format")               |
+| [title](#title)                 | Merged        | Optional | cannot be null | [\[object Object\]](character-properties-name.md "alias.json#/properties/title")              |
+| [popularity](#popularity)       | `integer`     | Optional | cannot be null | [\[object Object\]](media-properties-popularity.md "media.json#/properties/popularity")       |
+| [description](#description)     | `string`      | Optional | cannot be null | [\[object Object\]](media-properties-description.md "media.json#/properties/description")     |
+| [images](#images)               | `array`       | Optional | cannot be null | [\[object Object\]](character-properties-images.md "image.json#/properties/images")           |
+| [trailer](#trailer)             | `object`      | Optional | cannot be null | [\[object Object\]](media-properties-trailer.md "media.json#/properties/trailer")             |
+| [externalLinks](#externallinks) | `array`       | Optional | cannot be null | [\[object Object\]](media-properties-externallinks.md "media.json#/properties/externalLinks") |
+| [relations](#relations)         | `array`       | Optional | cannot be null | [\[object Object\]](media-properties-relations.md "media.json#/properties/relations")         |
+| [characters](#characters)       | `array`       | Optional | cannot be null | [\[object Object\]](media-properties-characters.md "media.json#/properties/characters")       |
 
 ## id
 
@@ -38,15 +38,15 @@ A unique alphanumeric id
 
 *   is optional
 
-*   Type: `string` ([id](media-properties-id.md))
+*   Type: `string`
 
 *   cannot be null
 
-*   defined in: [media](media-properties-id.md "https://fable.deno.dev/media.json#/properties/id")
+*   defined in: [\[object Object\]](media-properties-id.md "media.json#/properties/id")
 
 ### id Type
 
-`string` ([id](media-properties-id.md))
+`string`
 
 ### id Constraints
 
@@ -70,15 +70,15 @@ Choose what type of media this is
 
 *   is optional
 
-*   Type: `string` ([type](media-properties-type.md))
+*   Type: unknown
 
 *   cannot be null
 
-*   defined in: [media](media-properties-type.md "https://fable.deno.dev/media.json#/properties/type")
+*   defined in: [\[object Object\]](media-properties-type.md "media.json#/properties/type")
 
 ### type Type
 
-`string` ([type](media-properties-type.md))
+unknown
 
 ### type Constraints
 
@@ -97,15 +97,15 @@ Choose what format of media this is
 
 *   is optional
 
-*   Type: `string` ([format](media-properties-format.md))
+*   Type: unknown
 
 *   cannot be null
 
-*   defined in: [media](media-properties-format.md "https://fable.deno.dev/media.json#/properties/format")
+*   defined in: [\[object Object\]](media-properties-format.md "media.json#/properties/format")
 
 ### format Type
 
-`string` ([format](media-properties-format.md))
+unknown
 
 ### format Constraints
 
@@ -126,29 +126,29 @@ Choose what format of media this is
 
 ## title
 
-The title of the media
+The name of the character
 
 `title`
 
 *   is optional
 
-*   Type: `object` ([alias](alias.md))
+*   Type: `object` ([Details](character-properties-name.md))
 
 *   cannot be null
 
-*   defined in: [media](alias.md "https://fable.deno.dev/alias.json#/properties/title")
+*   defined in: [\[object Object\]](character-properties-name.md "alias.json#/properties/title")
 
 ### title Type
 
-`object` ([alias](alias.md))
+`object` ([Details](character-properties-name.md))
 
 any of
 
-*   [Untitled undefined type in alias](alias-anyof-0.md "check type definition")
+*   [Untitled schema](alias-anyof-0.md "check type definition")
 
-*   [Untitled undefined type in alias](alias-anyof-1.md "check type definition")
+*   [Untitled schema](alias-anyof-1.md "check type definition")
 
-*   [Untitled undefined type in alias](alias-anyof-2.md "check type definition")
+*   [Untitled schema](alias-anyof-2.md "check type definition")
 
 ## popularity
 
@@ -158,15 +158,15 @@ Set the popularity of the media (the number of followers or people who read/watc
 
 *   is optional
 
-*   Type: `integer` ([popularity](media-properties-popularity.md))
+*   Type: `integer`
 
 *   cannot be null
 
-*   defined in: [media](media-properties-popularity.md "https://fable.deno.dev/media.json#/properties/popularity")
+*   defined in: [\[object Object\]](media-properties-popularity.md "media.json#/properties/popularity")
 
 ### popularity Type
 
-`integer` ([popularity](media-properties-popularity.md))
+`integer`
 
 ### popularity Constraints
 
@@ -180,15 +180,15 @@ Add a description about this media
 
 *   is optional
 
-*   Type: `string` ([description](media-properties-description.md))
+*   Type: `string`
 
 *   cannot be null
 
-*   defined in: [media](media-properties-description.md "https://fable.deno.dev/media.json#/properties/description")
+*   defined in: [\[object Object\]](media-properties-description.md "media.json#/properties/description")
 
 ### description Type
 
-`string` ([description](media-properties-description.md))
+`string`
 
 ### description Constraints
 
@@ -196,21 +196,21 @@ Add a description about this media
 
 ## images
 
-A set of images featuring this media
+A set of images featuring this character
 
 `images`
 
 *   is optional
 
-*   Type: `object[]` ([image](image-image.md))
+*   Type: `object[]` ([Details](image-items.md))
 
 *   cannot be null
 
-*   defined in: [media](image.md "https://fable.deno.dev/image.json#/properties/images")
+*   defined in: [\[object Object\]](character-properties-images.md "image.json#/properties/images")
 
 ### images Type
 
-`object[]` ([image](image-image.md))
+`object[]` ([Details](image-items.md))
 
 ## trailer
 
@@ -220,15 +220,15 @@ A url to a trailer about the media
 
 *   is optional
 
-*   Type: `object` ([trailer](media-properties-trailer.md))
+*   Type: `object` ([Details](media-properties-trailer.md))
 
 *   cannot be null
 
-*   defined in: [media](media-properties-trailer.md "https://fable.deno.dev/media.json#/properties/trailer")
+*   defined in: [\[object Object\]](media-properties-trailer.md "media.json#/properties/trailer")
 
 ### trailer Type
 
-`object` ([trailer](media-properties-trailer.md))
+`object` ([Details](media-properties-trailer.md))
 
 ## externalLinks
 
@@ -238,15 +238,15 @@ A list of urls for the media's pages on various platforms
 
 *   is optional
 
-*   Type: `object[]` ([external link](media-properties-external-links-external-link.md))
+*   Type: `object[]` ([Details](media-properties-externallinks-items.md))
 
 *   cannot be null
 
-*   defined in: [media](media-properties-external-links.md "https://fable.deno.dev/media.json#/properties/externalLinks")
+*   defined in: [\[object Object\]](media-properties-externallinks.md "media.json#/properties/externalLinks")
 
 ### externalLinks Type
 
-`object[]` ([external link](media-properties-external-links-external-link.md))
+`object[]` ([Details](media-properties-externallinks-items.md))
 
 ## relations
 
@@ -256,15 +256,15 @@ Define the relations between this media and other media
 
 *   is optional
 
-*   Type: `object[]` ([relation](media-properties-relations-relation.md))
+*   Type: `object[]` ([Details](media-properties-relations-items.md))
 
 *   cannot be null
 
-*   defined in: [media](media-properties-relations.md "https://fable.deno.dev/media.json#/properties/relations")
+*   defined in: [\[object Object\]](media-properties-relations.md "media.json#/properties/relations")
 
 ### relations Type
 
-`object[]` ([relation](media-properties-relations-relation.md))
+`object[]` ([Details](media-properties-relations-items.md))
 
 ## characters
 
@@ -274,12 +274,12 @@ A list of characters that appear in the media
 
 *   is optional
 
-*   Type: `object[]` ([character](media-properties-characters-character.md))
+*   Type: `object[]` ([Details](media-properties-characters-items.md))
 
 *   cannot be null
 
-*   defined in: [media](media-properties-characters.md "https://fable.deno.dev/media.json#/properties/characters")
+*   defined in: [\[object Object\]](media-properties-characters.md "media.json#/properties/characters")
 
 ### characters Type
 
-`object[]` ([character](media-properties-characters-character.md))
+`object[]` ([Details](media-properties-characters-items.md))

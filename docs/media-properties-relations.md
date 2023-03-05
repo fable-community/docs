@@ -1,7 +1,7 @@
-# relations Schema
+# Untitled array in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/relations
+media.json#/properties/relations
 ```
 
 Define the relations between this media and other media
@@ -12,4 +12,4 @@ Define the relations between this media and other media
 
 ## relations Type
 
-`object[]` ([relation](media-properties-relations-relation.md))
+`object[]` ([Details](media-properties-relations-items.md))

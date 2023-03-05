@@ -1,7 +1,7 @@
-# depends Schema
+# Untitled array in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/schema.json#/properties/depends
+schema.json#/properties/depends
 ```
 
 A list of packs that are required to make your pack function properly.
@@ -12,4 +12,4 @@ A list of packs that are required to make your pack function properly.
 
 ## depends Type
 
-`string[]` ([dependency](schema-properties-depends-dependency.md))
+`string[]`

@@ -1,7 +1,7 @@
-# Untitled string in media Schema
+# Untitled undefined type in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/trailer/properties/site
+media.json#/properties/trailer/properties/site
 ```
 
 The name of the site (only supports youtube)
@@ -12,7 +12,7 @@ The name of the site (only supports youtube)
 
 ## site Type
 
-`string`
+unknown
 
 ## site Constraints
 

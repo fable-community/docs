@@ -1,7 +1,7 @@
-# description Schema
+# Untitled string in \[object Object] Schema
 
 ```txt
-https://fable.deno.dev/media.json#/properties/description
+media.json#/properties/description
 ```
 
 Add a description about this media
@@ -12,7 +12,7 @@ Add a description about this media
 
 ## description Type
 
-`string` ([description](media-properties-description.md))
+`string`
 
 ## description Constraints
 
