@@ -4,7 +4,7 @@
 https://fable.deno.dev/schema.json#/properties/title
 ```
 
-The display title of the pack
+The display name of the pack
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |

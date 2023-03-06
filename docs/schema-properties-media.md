@@ -4,7 +4,7 @@
 https://fable.deno.dev/schema.json#/properties/media
 ```
 
-Media to add, or overwrite
+Media to add, disable or overwrite
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |

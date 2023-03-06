@@ -64,7 +64,7 @@ A unique alphanumeric id
 
 ## title
 
-The display title of the pack
+The display name of the pack
 
 `title`
 
@@ -108,7 +108,7 @@ Small description about the pack and what it contains
 
 ## nsfw
 
-If the pack contains nsfw (adult) content
+If the pack contains any nsfw (adult) content
 
 `nsfw`
 
@@ -162,7 +162,7 @@ The icon of the pack or its author
 
 ## url
 
-The url to pack's homepage
+A url to pack's homepage
 
 `url`
 
@@ -180,7 +180,7 @@ The url to pack's homepage
 
 ## depends
 
-A list of packs that are required to make your pack function properly.
+A list of packs that are required to make your pack function properly
 
 `depends`
 
@@ -198,7 +198,7 @@ A list of packs that are required to make your pack function properly.
 
 ## conflicts
 
-A list of packs that might conflict with your pack.
+A list of packs that might conflict with your pack
 
 `conflicts`
 
@@ -216,7 +216,7 @@ A list of packs that might conflict with your pack.
 
 ## media
 
-Media to add, or overwrite
+Media to add, disable or overwrite
 
 `media`
 
@@ -234,7 +234,7 @@ Media to add, or overwrite
 
 ## characters
 
-Characters to add, or overwrite
+Characters to add, disable or overwrite
 
 `characters`
 

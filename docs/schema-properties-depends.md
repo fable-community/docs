@@ -4,7 +4,7 @@
 https://fable.deno.dev/schema.json#/properties/depends
 ```
 
-A list of packs that are required to make your pack function properly.
+A list of packs that are required to make your pack function properly
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |
