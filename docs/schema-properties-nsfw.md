@@ -4,7 +4,7 @@
 https://fable.deno.dev/schema.json#/properties/nsfw
 ```
 
-If the pack contains nsfw (adult) content
+If the pack contains any nsfw (adult) content
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |

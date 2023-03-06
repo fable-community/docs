@@ -18,7 +18,7 @@
 
 *   [character](./media-properties-characters-character.md) – `https://fable.deno.dev/media.json#/properties/characters/items`
 
-*   [characters](./schema-properties-characters.md "Characters to add, or overwrite") – `https://fable.deno.dev/schema.json#/properties/characters`
+*   [characters](./schema-properties-characters.md "Characters to add, disable or overwrite") – `https://fable.deno.dev/schema.json#/properties/characters`
 
 *   [external link](./character-properties-external-links-external-link.md) – `https://fable.deno.dev/character.json#/properties/externalLinks/items`
 
@@ -28,7 +28,7 @@
 
 *   [media](./character-properties-media-media.md) – `https://fable.deno.dev/character.json#/properties/media/items`
 
-*   [media](./schema-properties-media.md "Media to add, or overwrite") – `https://fable.deno.dev/schema.json#/properties/media`
+*   [media](./schema-properties-media.md "Media to add, disable or overwrite") – `https://fable.deno.dev/schema.json#/properties/media`
 
 *   [relation](./media-properties-relations-relation.md) – `https://fable.deno.dev/media.json#/properties/relations/items`
 

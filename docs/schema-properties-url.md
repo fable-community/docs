@@ -4,7 +4,7 @@
 https://fable.deno.dev/schema.json#/properties/url
 ```
 
-The url to pack's homepage
+A url to pack's homepage
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |

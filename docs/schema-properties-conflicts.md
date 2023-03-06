@@ -4,7 +4,7 @@
 https://fable.deno.dev/schema.json#/properties/conflicts
 ```
 
-A list of packs that might conflict with your pack.
+A list of packs that might conflict with your pack
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |
