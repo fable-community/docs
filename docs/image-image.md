@@ -1,15 +1,3 @@
-# image Schema
-
-```txt
-https://fable.deno.dev/image.json#/items
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [image.json\*](../out/image.json "open original schema") |
-
 ## items Type
 
 `object` ([image](image-image.md))

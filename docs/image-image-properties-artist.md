@@ -1,15 +1,3 @@
-# artist Schema
-
-```txt
-https://fable.deno.dev/image.json#/items/properties/artist
-```
-
-The artist responsible for the image
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [image.json\*](../out/image.json "open original schema") |
-
 ## artist Type
 
 unknown ([artist](image-image-properties-artist.md))

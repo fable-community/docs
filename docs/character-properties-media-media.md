@@ -1,15 +1,3 @@
-# media Schema
-
-```txt
-https://fable.deno.dev/character.json#/properties/media/items
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                       |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [character.json\*](../out/character.json "open original schema") |
-
 ## items Type
 
 `object` ([media](character-properties-media-media.md))

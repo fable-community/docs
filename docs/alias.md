@@ -1,15 +1,3 @@
-# alias Schema
-
-```txt
-https://fable.deno.dev/alias.json
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                             |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [alias.json](../out/alias.json "open original schema") |
-
 ## alias Type
 
 `object` ([alias](alias.md))

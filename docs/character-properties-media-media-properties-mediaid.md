@@ -1,15 +1,3 @@
-# mediaId Schema
-
-```txt
-https://fable.deno.dev/character.json#/properties/media/items/properties/mediaId
-```
-
-Reference an existing character (\[pack:]id)
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                       |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [character.json\*](../out/character.json "open original schema") |
-
 ## mediaId Type
 
 `string` ([mediaId](character-properties-media-media-properties-mediaid.md))

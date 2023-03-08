@@ -1,15 +1,3 @@
-# id Schema
-
-```txt
-https://fable.deno.dev/media.json#/properties/trailer/properties/id
-```
-
-The id of the video
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [media.json\*](../out/media.json "open original schema") |
-
 ## id Type
 
 `string` ([id](media-properties-trailer-properties-id.md))

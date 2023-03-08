@@ -1,15 +1,3 @@
-# character Schema
-
-```txt
-https://fable.deno.dev/character.json
-```
-
-
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                     |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [character.json](../out/character.json "open original schema") |
-
 ## character Type
 
 `object` ([character](character.md))

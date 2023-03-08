@@ -1,15 +1,3 @@
-# media Schema
-
-```txt
-https://fable.deno.dev/schema.json#/properties/media
-```
-
-Media to add, disable or overwrite
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                 |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [schema.json\*](../out/schema.json "open original schema") |
-
 ## media Type
 
 `object` ([media](schema-properties-media.md))

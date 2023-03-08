@@ -1,15 +1,3 @@
-# id Schema
-
-```txt
-https://fable.deno.dev/character.json#/properties/id
-```
-
-A unique alphanumeric id
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                       |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [character.json\*](../out/character.json "open original schema") |
-
 ## id Type
 
 `string` ([id](character-properties-id.md))

@@ -1,15 +1,3 @@
-# popularity Schema
-
-```txt
-https://fable.deno.dev/media.json#/properties/popularity
-```
-
-Set the popularity of the media (the number of followers or people who read/watch it)
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [media.json\*](../out/media.json "open original schema") |
-
 ## popularity Type
 
 `integer` ([popularity](media-properties-popularity.md))

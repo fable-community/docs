@@ -1,15 +1,3 @@
-# role Schema
-
-```txt
-https://fable.deno.dev/media.json#/properties/characters/items/properties/role
-```
-
-Choose the role the character plays in the media
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [media.json\*](../out/media.json "open original schema") |
-
 ## role Type
 
 `string` ([role](media-properties-characters-character-properties-role.md))
