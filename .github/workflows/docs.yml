@@ -24,7 +24,7 @@ jobs:
           rm json/schema.builtin.json 
           cd ..
       - name: create markdown from fable json schemas
-        run: jsonschema2md -e json -d temp/json -o docs
+        run: jsonschema2md -e json -d temp/json -o docs -h false
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
