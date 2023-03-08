@@ -1,15 +1,3 @@
-# type Schema
-
-```txt
-https://fable.deno.dev/media.json#/properties/type
-```
-
-Choose what type of media this is
-
-| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [media.json\*](../out/media.json "open original schema") |
-
 ## type Type
 
 `string` ([type](media-properties-type.md))

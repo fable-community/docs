@@ -1,15 +1,3 @@
-# trailer Schema
-
-```txt
-https://fable.deno.dev/media.json#/properties/trailer
-```
-
-A url to a trailer about the media
-
-| Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                               |
-| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [media.json\*](../out/media.json "open original schema") |
-
 ## trailer Type
 
 `object` ([trailer](media-properties-trailer.md))
