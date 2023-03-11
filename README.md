@@ -17,7 +17,7 @@ _`The display name of the pack`_
 _`Small description about the pack and what it contains`_
 
 <kbd><br> [nsfw?](docs/schema.md#nsfw) <br><br></kbd>  
-_`If the pack contains any nsfw (adult) content`_
+_`If the pack contains any nsfw (explicit) content`_
 
 <kbd><br> [author?](docs/schema.md#author) <br><br></kbd>  
 _`The name of the pack's author`_
