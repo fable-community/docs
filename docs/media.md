@@ -140,7 +140,7 @@ any of
 
 ## popularity
 
-Set the popularity of the media (the number of followers or people who read/watch it)
+The popularity of the media (the number of followers or people who read/watch it) (responsible for the rating/stars of characters)
 
 `popularity`
 

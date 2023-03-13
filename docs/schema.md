@@ -96,7 +96,7 @@ Small description about the pack and what it contains
 
 ## nsfw
 
-If the pack contains any nsfw (adult) content
+If the pack contains any nsfw explicit content (If true you pack won't work outside of nsfw channels)
 
 `nsfw`
 

@@ -11,7 +11,7 @@
 
 ## url
 
-A url of the image (recommended: 450x635)
+A url of the image (Fable forces the aspect-ratio of all images to 230:325) (recommended size: 450x635)
 
 `url`
 
@@ -26,6 +26,16 @@ A url of the image (recommended: 450x635)
 ### url Type
 
 `string` ([url](image-image-properties-url.md))
+
+### url Examples
+
+```json
+"https://i.imgur.com/U2U8Uuo.jpg"
+```
+
+```json
+"https://i.redd.it/xozj7btis2na1.jpg"
+```
 
 ## artist
 
