@@ -98,7 +98,7 @@ Add a description about this character
 
 ## popularity
 
-Set the popularity of the character (the number of followers or people who likes them)
+The popularity of the character (the number of followers or people who likes them) (responsible for the rating/stars of characters)
 
 `popularity`
 
