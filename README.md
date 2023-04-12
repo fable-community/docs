@@ -34,11 +34,55 @@ _`A list of packs that are required to make your pack function properly`_
 <kbd><br> [conflicts?](docs/schema.md#conflicts) <br><br></kbd>  
 _`A list of packs that might conflict with your pack`_
 
-<kbd><br> [media?](docs/schema.md#media) <br><br></kbd>  
-_`Media to add, disable or overwrite`_
+<kbd><br> [media?](docs/schema.md#media) <br><br></kbd>: {
+  <dl>
+    <dd>
+<kbd><br> <a href="docs/schema-properties-media.md#conflicts">conflicts?</a> <br><br></kbd>: [ <i><code>"[pack-id:media-id]"</code></i> ]</br>
+<kbd><br> <a href="docs/schema-properties-media.md#new">new?</a> <br><br></kbd>: [
+  <dl>
+    <dd>
+      <kbd><br> <a href="docs/media.md#id">id</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#type">type</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#format">format?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#title">title</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#popularity">popularity</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#description">description?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#images">images?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#trailer">trailer?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#externalLinks">externalLinks?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#relations">relations?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/media.md#characters">characters?</a> <br><br></kbd></br>
+    </dd>
+  </dl>
+]
+    </dd>
+  </dl>
 
-<kbd><br> [characters?](docs/schema.md#characters) <br><br></kbd>  
-_`Characters to add, disable or overwrite`_
+}
+
+<kbd><br> [characters?](docs/schema.md#characters) <br><br></kbd>: {
+  <dl>
+    <dd>
+      <kbd><br> <a href="docs/schema-properties-characters.md#conflicts">conflicts?</a> <br><br></kbd>: [ <i><code>"[pack-id:character-id]"</code></i> ]</br>
+<kbd><br> <a href="docs/schema-properties-characters.md#new">new?</a> <br><br></kbd>: [
+  <dl>
+    <dd>
+      <kbd><br> <a href="docs/character.md#id">id</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#name">name</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#description">description?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#popularity">popularity?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#images">images?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#gender">gender?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#age">age?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#externalLinks">externalLinks?</a> <br><br></kbd></br>
+      <kbd><br> <a href="docs/character.md#media">media?</a> <br><br></kbd></br>
+    </dd>
+  </dl>
+]
+    </dd>
+  </dl>
+
+}
 
 </dd>
 </dl>
