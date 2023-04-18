@@ -38,7 +38,7 @@ _`A list of packs that might conflict with your pack`_
   <dl>
     <dd>
 <kbd><br> <a href="docs/schema-properties-media.md#conflicts">conflicts?</a> <br><br></kbd>: [ <i><code>"[pack-id:media-id]"</code></i> ]</br>
-<kbd><br> <a href="docs/schema-properties-media.md#new">new?</a> <br><br></kbd>: [
+<kbd><br> <a href="docs/schema-properties-media.md#new">new?</a> <br><br></kbd>: [{
   <dl>
     <dd>
       <kbd><br> <a href="docs/media.md#id">id</a> <br><br></kbd></br>
@@ -54,7 +54,7 @@ _`A list of packs that might conflict with your pack`_
       <kbd><br> <a href="docs/media.md#characters">characters?</a> <br><br></kbd></br>
     </dd>
   </dl>
-]
+}]
     </dd>
   </dl>
 
@@ -64,7 +64,7 @@ _`A list of packs that might conflict with your pack`_
   <dl>
     <dd>
       <kbd><br> <a href="docs/schema-properties-characters.md#conflicts">conflicts?</a> <br><br></kbd>: [ <i><code>"[pack-id:character-id]"</code></i> ]</br>
-<kbd><br> <a href="docs/schema-properties-characters.md#new">new?</a> <br><br></kbd>: [
+<kbd><br> <a href="docs/schema-properties-characters.md#new">new?</a> <br><br></kbd>: [{
   <dl>
     <dd>
       <kbd><br> <a href="docs/character.md#id">id</a> <br><br></kbd></br>
@@ -78,7 +78,7 @@ _`A list of packs that might conflict with your pack`_
       <kbd><br> <a href="docs/character.md#media">media?</a> <br><br></kbd></br>
     </dd>
   </dl>
-]
+}]
     </dd>
   </dl>
 
